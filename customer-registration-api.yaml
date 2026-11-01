@@ -12,10 +12,28 @@ collection:
     meta:
       id: req_f41f764bc60044a8b5201adbbe7305da
       created: 1793558706780
-      modified: 1793558740520
+      modified: 1793558975153
       isPrivate: false
       description: ""
       sortKey: -1793558706780
+    method: GET
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: https://dev.lowbit.com.br/health
+    name: Get Health
+    meta:
+      id: req_6efc708e288b4d0d90cddb28b99b4b5a
+      created: 1793558961371
+      modified: 1793558979111
+      isPrivate: false
+      description: ""
+      sortKey: -1793558961371
     method: GET
     settings:
       renderRequestBody: true
