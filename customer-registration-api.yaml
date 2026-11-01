@@ -1,0 +1,40 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: Customer-Registration-API
+meta:
+  id: wrk_8e6985c2d18e4101b7ec5468c52c4cad
+  created: 1793558680962
+  modified: 1793558680962
+  description: ""
+collection:
+  - url: https://dev.lowbit.com.br/
+    name: Get All Customers
+    meta:
+      id: req_f41f764bc60044a8b5201adbbe7305da
+      created: 1793558706780
+      modified: 1793558740520
+      isPrivate: false
+      description: ""
+      sortKey: -1793558706780
+    method: GET
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_27ee4ced6307bf754d42d8734a88b7030e317c29
+    created: 1793558680973
+    modified: 1793558680973
+environments:
+  name: Base Environment
+  meta:
+    id: env_27ee4ced6307bf754d42d8734a88b7030e317c29
+    created: 1793558680971
+    modified: 1793558680971
+    isPrivate: false
