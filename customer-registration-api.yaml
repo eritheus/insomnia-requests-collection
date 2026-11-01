@@ -12,7 +12,7 @@ collection:
     meta:
       id: req_f41f764bc60044a8b5201adbbe7305da
       created: 1793558706780
-      modified: 1793558975153
+      modified: 1793559059391
       isPrivate: false
       description: ""
       sortKey: -1793558706780
@@ -30,11 +30,42 @@ collection:
     meta:
       id: req_6efc708e288b4d0d90cddb28b99b4b5a
       created: 1793558961371
-      modified: 1793558979111
+      modified: 1793559058053
       isPrivate: false
       description: ""
       sortKey: -1793558961371
     method: GET
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: https://dev.lowbit.com.br/
+    name: Create Customer
+    meta:
+      id: req_8c7905df4f3f4cc185201cab7e49e563
+      created: 1793559034491
+      modified: 1793559146698
+      isPrivate: false
+      description: ""
+      sortKey: -1793559034491
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+          "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "name": "Matheus Cavalcante",
+          "taxId": "12345678900",
+          "createdAt": "2026-11-01T18:00:00Z",
+          "isActive": true
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
     settings:
       renderRequestBody: true
       encodeUrl: true
